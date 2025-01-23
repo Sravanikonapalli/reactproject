@@ -1,0 +1,47 @@
+.main-section {
+    background-image: url('https://www.shutterstock.com/image-vector/smartphone-surrounded-by-shopping-cart-600nw-1539636704.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: white; 
+    text-align: center;
+    padding: 0 20px;
+  }
+  
+  /* Container for the text and button */
+  .content {
+    max-width: 600px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 10px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Style for the sign up button */
+  .signup-btn {
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    background-color: #ff6f61; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-btn:hover {
+    background-color: #ff4f3f; 
+  }
+  
