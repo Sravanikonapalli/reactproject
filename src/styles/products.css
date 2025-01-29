@@ -145,7 +145,6 @@
 
 .products-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 20px;
     flex-grow: 1;
 }
@@ -197,9 +196,5 @@
 
     .filters-bar {
         width: 100%;
-    }
-
-    .products-list {
-        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     }
 }
